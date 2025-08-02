@@ -5,7 +5,7 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "Shadow-Xtech~0dB2TQ4L#AtTE94df1R2htSyk8fkVTL5YRCga1GFWjuDTxCDPMjU",
+SESSION_ID: process.env.SESSION_ID || "Shadow-Xtech~ontQhQgK#1OeAt4s34pY7weV6CeylrgRjGj9ytxR9aw2AjZG2sEE",
 // add your Session Id 
 AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
 // make true or false status auto seen
@@ -25,9 +25,9 @@ MENTION_REPLY: process.env.MENTION_REPLY || "false",
 // make true if want auto voice reply if someone menetion you 
 MENU_IMAGE_URL: process.env.MENU_IMAGE_URL || "https://files.catbox.moe/og4tsk.jpg",
 // add custom menu and mention reply image url
-PREFIX: process.env.PREFIX || ".",
+PREFIX: process.env.PREFIX || "@",
 // add your prifix for bot   
-BOT_NAME: process.env.BOT_NAME || "SHDOW-XTECH",
+BOT_NAME: process.env.BOT_NAME || "⦿ 𝗦𝗤𝗨𝗜𝗗 ⃞ 𝗚𝗔𝗠𝙀⃤",
 // add bot namw here for menu
 STICKER_NAME: process.env.STICKER_NAME || "SHADOW-XTECH",
 // type sticker pack name 
@@ -37,7 +37,7 @@ CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "💝,💖,💗,❤️�
 // chose custom react emojis by yourself 
 DELETE_LINKS: process.env.DELETE_LINKS || "false",
 // automatic delete links witho remove member 
-OWNER_NUMBER: process.env.OWNER_NUMBER || "254759000340",
+OWNER_NUMBER: process.env.OWNER_NUMBER || "50932818924",
 // add your bot owner number
 OWNER_NAME: process.env.OWNER_NAME || "Black-Tappy",
 // add bot owner name
@@ -55,7 +55,7 @@ ANTI_BAD: process.env.ANTI_BAD || "false",
 // false or true for anti bad words  
 MODE: process.env.MODE || "public",
 // make bot public-private-inbox-group 
-ANTI_LINK_KICK: process.env.ANTI_LINK_KICK || "false",
+ANTI_LINK_KICK: process.env.ANTI_LINK_KICK || "true",
 // make anti link true,false for groups 
 AUTO_VOICE: process.env.AUTO_VOICE || "false",
 // make true for send automatic voices
@@ -77,7 +77,7 @@ ANTI_VV: process.env.ANTI_VV || "true",
 // true for anti once view 
 ANTI_DEL_PATH: process.env.ANTI_DEL_PATH || "log", 
 // change it to 'same' if you want to resend deleted message in same chat 
-AUTO_RECORDING: process.env.AUTO_RECORDING || "false",
+AUTO_RECORDING: process.env.AUTO_RECORDING || "true",
 // make it true for auto recoding
 ANTICALL: process.env.ANTICALL || "false",
 // make it true for auto recoding 
